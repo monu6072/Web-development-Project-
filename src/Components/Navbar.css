@@ -1,0 +1,21 @@
+.Navbar .Navbar-Nav .Nav-link::after {
+    content: "";
+    display: block;
+    height: auto;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+  
+  
+  .navbar-nav .nav-link:hover::after {
+    transform: scaleX(1);
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  
+  
